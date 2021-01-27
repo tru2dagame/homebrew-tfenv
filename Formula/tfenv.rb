@@ -11,8 +11,8 @@ class Tfenv < Formula
     # v2.0.0 patch / custom version support
     # https://github.com/weijing24/tfenv/pull/2.patch?full_index=1
     patch do
-      url "https://patch-diff.githubusercontent.com/raw/weijing24/tfenv/pull/2.patch?full_index=1"
-      sha256 "c4284310b058e1177f414795f619b822379876b4ba6b26134b0a41da77a42b3f"
+      url "https://patch-diff.githubusercontent.com/raw/weijing24/tfenv/pull/2.patch"
+      sha256 "0a277cb2eb257632037a4f0cdf5cf97ef09cf943a5f294d0165fc577a44686a0"
     end
   end
 
