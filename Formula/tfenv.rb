@@ -5,14 +5,14 @@ class Tfenv < Formula
   head "https://github.com/weijing24/tfenv.git"
 
   stable do
-    url "https://github.com/weijing24/tfenv/archive/v2.0.0.tar.gz"
-    sha256 "de3dcf13768cb078e94d68ca85071b8d6e44104394336d952255ca558b854b0b"
+    url "https://github.com/weijing24/tfenv/archive/v2.2.0.tar.gz"
+    sha256 "628c55bca9adf96a8d31c3f95b01aab170c3002c150ceb22cadd03366854d071"
 
     # v2.0.0 patch / custom version support
-    # https://github.com/weijing24/tfenv/pull/2.patch?full_index=1
+    # https://github.com/weijing24/tfenv/pull/3.patch?full_index=1
     patch do
-      url "https://patch-diff.githubusercontent.com/raw/weijing24/tfenv/pull/2.patch"
-      sha256 "0a277cb2eb257632037a4f0cdf5cf97ef09cf943a5f294d0165fc577a44686a0"
+      url "https://patch-diff.githubusercontent.com/raw/weijing24/tfenv/pull/3.patch"
+      sha256 "367151a635f23b858f674a5811af6694bf7dafacdda03217ddda61116442be0a"
     end
   end
 
