@@ -28,7 +28,6 @@ class Tfenv < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  bottle :unneeded
 
   uses_from_macos "unzip"
 
